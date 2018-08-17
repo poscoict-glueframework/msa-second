@@ -14,9 +14,9 @@
 	<modules>
 		<module>second-domain</module>
 		<module>second-service</module>
-		<module>second-spring-boot</module>
 		<module>second-adapter-stub</module>
 		<module>second-adapter-skeleton</module>
 		<module>second-client</module>
+		<module>second-spring-boot</module>
 	</modules>
 </project>

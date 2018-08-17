@@ -1,8 +1,8 @@
-server:
-  port: 8280
-
 spring:
   application:
     name: second-api
+  cloud:
+    config:
+    uri: @configServerUri@
   profiles:
-    active: vdi
+    active: @env@
